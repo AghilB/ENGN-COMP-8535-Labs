@@ -22,7 +22,7 @@ Given a real-valued matrix <img src="https://render.githubusercontent.com/render
 Hint: [Eckart–Young–Mirsky theorem](https://en.wikipedia.org/wiki/Low-rank_approximation#Proof_of_Eckart%E2%80%93Young%E2%80%93Mirsky_theorem_(for_Frobenius_norm))
 
 ### 2. Constrained linear least squares (difficulty: :star: :star: :star:)
-Given two real matrices <img src="https://render.githubusercontent.com/render/math?math=A\in \Reals^{n\times n}"> and <img src="https://render.githubusercontent.com/render/math?math=B\in \Reals^{n\times n}">, write a function `constrained_LLS(A, B)` to compute a real vector <img src="https://render.githubusercontent.com/render/math?math=`x\in\Reals^n"> that minimises <img src="https://render.githubusercontent.com/render/math?math=\|Ax\|_2"> subject to <img src="https://render.githubusercontent.com/render/math?math=\|Bx\|_2=1">. Out of two matrices, `A` is always full rank but `B` not necessarily so.
+Given two real matrices <img src="https://render.githubusercontent.com/render/math?math=A\in \Reals^{n\times n}"> and <img src="https://render.githubusercontent.com/render/math?math=B\in \Reals^{n\times n}">, write a function `constrained_LLS(A, B)` to compute a real vector <img src="https://render.githubusercontent.com/render/math?math=x\in\Reals^n"> that minimises <img src="https://render.githubusercontent.com/render/math?math=\|Ax\|_2"> subject to <img src="https://render.githubusercontent.com/render/math?math=\|Bx\|_2=1">. Out of two matrices, `A` is always full rank but `B` not necessarily so.
 
 *I.e.* solve below math problem
 
