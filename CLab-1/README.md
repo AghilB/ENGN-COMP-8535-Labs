@@ -28,7 +28,7 @@ Given two real matrices <img src="https://render.githubusercontent.com/render/ma
 
 <img src="https://render.githubusercontent.com/render/math?math=\arg_x\min\|Ax\|_2,s.t.\|Bx\|_2=1">
 
-Hint: first figure out a way to solve this problem when $`B`$ is full rank. Then generalise your solution to handle rank deficient $`B`$ -- a common trick is to add a small constant (*e.g.* 0.000001) to its diagonal elements.
+Hint: first figure out a way to solve this problem when `B` is full rank. Then generalise your solution to handle rank deficient `B` -- a common trick is to add a small constant (*e.g.* 0.000001) to its diagonal elements.
 
 ### 3. Test your codes (difficulty: :star:)
 
