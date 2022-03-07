@@ -13,7 +13,7 @@ Your coding lab **will not be marked**. It is for your practice only.
 
 ### 1. Low-rank matrix approximation (difficulty: :star: :star:)
 
-Given a real-valued matrix <img src="https://render.githubusercontent.com/render/math?math=A\in \Reals^{m\times n}">$`A\in \Reals^{m\times n}`$ and an integer $`k\in[1, min(m,n)]`$, write a function `low_rank_approx(A, k)` to compute a rank-$`k`$ approximation $`X`$ that minimises the Frobenius norm of $`\|A-X\|_F`$. 
+Given a real-valued matrix <img src="https://render.githubusercontent.com/render/math?math=A\in \Reals^{m\times n}"> and an integer <img src="https://render.githubusercontent.com/render/math?math=`k\in[1, min(m,n)]`">$`k\in[1, min(m,n)]`$, write a function `low_rank_approx(A, k)` to compute a rank-$`k`$ approximation $`X`$ that minimises the Frobenius norm of $`\|A-X\|_F`$. 
 
 *I.e.* solve below math problem
 ```math
