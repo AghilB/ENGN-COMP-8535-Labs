@@ -36,7 +36,15 @@ def constrained_LLS(A, B):
       x: n-diemsional vector that minimises ||Ax||2 subject to ||Bx||2=1 
     '''
     #TODO: Fill your work here
-
+    eps=0.00000001
+    u, s, vt = np.linalg.svd(B)
+    s+=eps
+    s1= np.diag(s)
+    temp_matrix=s1@vt
+    n_matrix = A@temp_matrix.T
+    u2, s2, vt2 = np.linalg.svd(n_matrix)
+    x = vt.T@s1@vt2[-1]
+    return X
 
 
 ### you can optionally write your own functions like below ###
